@@ -2,11 +2,11 @@
 
 ## Description
 
-This application utilizes the Open Weather Map API in order to display the current temperature, wind speed, and humidity of a searched city. Search for a city in the current weather and the 5 day forecast will be displayed in the cards on the page. This application contains HTML, CSS, and JavaScript. This page also contains small amounts of Bulma styling sheets .My classmate Bryce helped me pull my items from local storage.
+This application utilizes the Open Weather Map API in order to display the current temperature, wind speed, and humidity of a searched city. Search for a city in the current weather and the 5-day forecast will be displayed in the cards on the page. This application contains HTML, CSS, and JavaScript. This page also contains small amounts of Bulma styling sheets.My classmate Bryce helped me pull my items from local storage.
 
 ## License
 
-This application was licened by MIT
+This application was licensed by MIT
 
 ## Live URL
 

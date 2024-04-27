@@ -7,3 +7,140 @@ l4 {
 l1 {
   font-weight: bolder;
 }
+.centered-card {
+  position: absolute;
+  top: 50%;
+  left: 48%;
+
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  margin: 0 auto;
+  border: 1px solid #007bff;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+
+  width: 300px;
+  height: 200px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.centered-card-2 {
+  position: absolute;
+  top: 100%;
+
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  margin: 0 auto;
+  border: 1px solid #007bff;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+
+  width: 300px;
+  height: 200px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.left-card {
+  position: absolute;
+  bottom: -5%;
+  left: 100%;
+
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  margin: 0 auto;
+  border: 1px solid #007bff;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+
+  width: 300px;
+  height: 200px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.left-card-2 {
+  position: absolute;
+  bottom: -5%;
+  left: -110%;
+
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  margin: 0 auto;
+  border: 1px solid #007bff;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+
+  width: 300px;
+  height: 200px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.right-card {
+  position: absolute;
+  bottom: -5%;
+  right: 210%;
+
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  margin: 0 auto;
+  border: 1px solid #007bff;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+
+  width: 300px;
+  height: 200px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.right-card-2 {
+  position: absolute;
+  bottom: -5%;
+  right: 105%;
+
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  margin: 0 auto;
+  border: 1px solid #007bff;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+
+  width: 300px;
+  height: 200px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-content {
+  padding: 10px;
+}
+
+.card-title {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+.card-text {
+  color: #666;
+}
+
+.btn {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 3px;
+}

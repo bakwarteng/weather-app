@@ -1,12 +1,9 @@
-l2,
-l3,
-l4 {
-  padding: 30px;
+/* CSS for the list items within .search-history */
+.searchHistory {
+  font-weight: bolder;
+  padding: auto 0%;
 }
 
-l1 {
-  font-weight: bolder;
-}
 .centered-card {
   position: absolute;
   top: 50%;
@@ -106,7 +103,7 @@ l1 {
 .right-card-2 {
   position: absolute;
   bottom: -5%;
-  right: 105%;
+  right: 110%;
 
   justify-content: center;
   align-items: center;

@@ -18,6 +18,7 @@ document.getElementById("search").addEventListener("click", function () {
       const cityName = data.name;
 
       dataList.name = data.name;
+      dataList.date = data.dt;
       dataList.main = data.main.temp;
       dataList.wind = data.wind.speed;
       dataList.humidity = data.main.humidity;
@@ -37,9 +38,6 @@ document.getElementById("search").addEventListener("click", function () {
     .then((data) => {
       console.log(data);
 
-      // const cityName = data.name;
-
-      //  dataList.name1 = data.list[4].name
       dataList.main1 = data.list[6].main.temp;
       dataList.wind1 = data.list[6].wind.speed;
       dataList.humidity1 = data.list[6].main.humidity;
